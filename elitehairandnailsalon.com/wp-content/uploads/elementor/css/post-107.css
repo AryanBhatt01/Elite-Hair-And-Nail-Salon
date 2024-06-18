@@ -1,0 +1,80 @@
+.elementor-kit-107 {
+    --e-global-color-primary: #232323;
+    --e-global-color-secondary: #232323;
+    --e-global-color-text: #848484;
+    --e-global-color-accent: #911439;
+    --e-global-color-d22d82f: #6EC1E4;
+    --e-global-color-274cd092: #54595F;
+    --e-global-color-358b980b: #7A7A7A;
+    --e-global-color-56681fec: #911439;
+    --e-global-color-3580bbc6: #4054B2;
+    --e-global-color-d52a683: #911439;
+    --e-global-color-7b0485d3: #000;
+    --e-global-color-5de93cae: #FFF;
+    --e-global-typography-primary-font-family: "Josefin Sans";
+    --e-global-typography-primary-font-weight: 400;
+    --e-global-typography-secondary-font-family: "Josefin Sans";
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Poppins";
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "Poppins";
+    --e-global-typography-accent-font-weight: 400;
+}
+
+.elementor-kit-107 a {
+    color: #911439;
+}
+
+.elementor-kit-107 button,
+.elementor-kit-107 input[type="button"],
+.elementor-kit-107 input[type="submit"],
+.elementor-kit-107 .elementor-button {
+    color: #FFFFFF;
+    background-color: #911439;
+}
+
+.elementor-kit-107 label {
+    color: #911439;
+}
+
+.elementor-kit-107 input:not([type="button"]):not([type="submit"]),
+.elementor-kit-107 textarea,
+.elementor-kit-107 .elementor-field-textual {
+    background-color: #911439;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1280px;
+}
+
+.e-con {
+    --container-max-width: 1280px;
+}
+
+{}
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+.elementor-kit-107 e-page-transition {
+    background-color: #911439;
+}
+
+@media(max-width:1024px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+    .e-con {
+        --container-max-width: 1024px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+    .e-con {
+        --container-max-width: 767px;
+    }
+}

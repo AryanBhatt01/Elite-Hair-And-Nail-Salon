@@ -1,0 +1,301 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.product-type-wgm_gift_card .price {
+    margin: 0 !important;
+}
+
+.product-type-wgm_gift_card .price~.cart {
+    padding-top: 0 !important;
+}
+
+.wps_wgm_added_wrapper {
+    margin-bottom: 20px;
+}
+
+.wps_wgm_added_wrapper .wps_wgm_section .wps_wgc_label {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#TB_window {
+    left: 0 !important;
+    margin: 0 auto !important;
+    max-width: 600px !important;
+    right: 0 !important;
+    top: 10% !important;
+    width: 95% !important;
+    /*IOS issue(Mobile device)*/
+    -webkit-overflow-scrolling: touch !important;
+    z-index: 9999999;
+}
+
+#TB_window iframe#TB_iframeContent {
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100% !important;
+    height: 480px !important;
+}
+
+@media only screen and (max-width: 640px) {
+    #TB_window>iframe#TB_iframeContent {
+        height: 400px !important;
+    }
+    /*IOS issue(Mobile device)*/
+    #TB_window {
+        height: 80vh;
+        overflow-y: scroll;
+    }
+}
+
+#wps_wgm_from_name {
+    width: 99%;
+}
+
+#wps_wgm_to_download {
+    width: 99%;
+}
+
+#wps_wgm_to_email {
+    width: 99%;
+    /* margin-bottom: 10px  !important; */
+}
+
+#wps_wgm_message {
+    width: 99%;
+}
+
+/* custom css for redeem iframe*/
+
+.wps_redeem_embed {
+    width: 100%;
+    height: 610px;
+    display: block;
+}
+
+/*css for single product page on front end */
+
+.wps_wgm_send_giftcard {
+    margin-right: 5px;
+}
+
+.wps_wgm_msg_info,
+.wps_wgm_msg_info_multiple_email {
+    margin-top: 5px;
+    margin-bottom: 3px;
+    display: block;
+    font-size: 13px;
+}
+
+.wps_wgm_msg_info_multiple_name {
+    display: block;
+    font-size: 13px;
+    display: none;
+}
+
+#wps_wgm_to_name_optional {
+    margin-top: 10px;
+    width: 99%;
+    display: none;
+}
+
+.wps_wgm_delivery_method {
+    border: 1px solid #f1f1f1;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
+    margin-bottom: 25px;
+    padding: 20px;
+}
+
+.wps_wgm_featured_img {
+    margin-right: 12px;
+    margin-bottom: 10px;
+    border: solid 3px #d2d2d2;
+    background-color: #00897b;
+    float: left;
+}
+
+.wps_wgm_pre_selected_temp {
+    border: 3px solid #2c2726 !important;
+    border-radius: 5px;
+    margin-right: 12px;
+}
+
+#wps_wgm_price {
+    width: 99%;
+}
+
+#mwg_wgm_preview_email {
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: block;
+    width: 99%;
+    cursor: pointer;
+}
+
+.wps_wgm_selected_template {
+    overflow: auto;
+}
+
+#wps_recharge_wallet_giftcard {
+    width: unset !important;
+    color: #fff !important;
+}
+
+.wps_wgm_min_user_price {
+    display: none;
+    color: red;
+}
+
+.wps_wgm_section select,
+.wps_wgm_section input[type=text],
+.wps_wgm_section textarea {
+    min-height: 33px;
+    color: #333333;
+}
+
+.wps_wgm_quantity_one_per_recipient {
+    display: none;
+}
+
+/* / My Account start / */
+
+.woocommerce-MyAccount-content .wps-wallet-field-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.wps-wallet-field-container>label {
+    text-align: left;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.woocommerce-MyAccount-content .wps-wallet-field-container input[type=number],
+.woocommerce-MyAccount-content .wps-wallet-field-container input[type=text],
+.woocommerce-MyAccount-content .wps-wallet-field-container input[type=submit] {
+    min-height: 30px;
+    padding: 5px 10px;
+    line-height: 1.5;
+    max-width: 350px;
+    margin: 0;
+}
+
+.woocommerce-MyAccount-content .wps-wallet-field-container input[type=submit] {
+    max-width: fit-content;
+    cursor: pointer;
+}
+
+/* / My Account end / */
+
+/* check balance section start */
+
+.wps_check_balance .button,
+.wps-wallet-field-container .button {
+    padding: 10px 20px;
+    min-height: 40px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.wps_gift_card_balance_heading {
+    margin: 0;
+    /* margin-top: 30px; */
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    line-height: 1.25;
+}
+
+.wps_gift_card_balance_wrapper {
+    max-width: 680px;
+    margin-top: 30px;
+}
+
+.wps_gift_card_balance_wrapper .gift_card_code input,
+.wps_gift_card_balance_wrapper .gift_card_balance_email input {
+    width: 100% !important;
+    border-radius: 5px;
+    height: auto;
+    padding: 10px 12px;
+    border: solid 1px #ccc;
+}
+
+.gift_card_balance_email,
+.gift_card_code {
+    margin-bottom: 15px;
+}
+
+.gift_card_balance_email label,
+.gift_card_code label {
+    color: #4e4e4e;
+    font-size: 14px;
+}
+
+input#gift_card_code,
+input#gift_card_balance_email {
+    width: 100%;
+    border: solid 1px #ccc;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* check balance section end */
+
+.gift_card_balance_email input#gift_card_balance_email:focus,
+.gift_card_code input#gift_card_code:focus {
+    border: solid 2px #000000;
+    outline: none;
+}
+
+/* previw content css */
+
+.wps_wgm_wrapper_for_preview {
+    margin: 15px 0;
+    width: 100%;
+    position: unset !important;
+}
+
+.wps_wgm_wrapper_for_preview h2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.25;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    color: #1e1e1e;
+    text-align: left;
+}
+
+.wps_wgm_wrapper_for_preview p {
+    margin: 0 0 5px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1e1e1e;
+    line-height: 1.5;
+    text-align: left;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.wps_wgm_wrapper_for_preview h2 span {
+    font-weight: 600;
+}
+
+/* PAR Compatibility. */
+
+.wps_wgm_coupon_redeem_loader {
+    display: none;
+    vertical-align: middle;
+}
+
+#wps_wgm_coupon_redeem_notify {
+    display: none;
+}
